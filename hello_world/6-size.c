@@ -8,10 +8,10 @@
 int main(void)
 {
 	int intType;
-	float floatType;
 	long int longintType;
 	long long int doublelongintType;
 	char charType;
+	float floatType;
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(charType));
 	printf("Size of an int: %lu byte(s)\u", (unsigned long)sizeof(intType));
