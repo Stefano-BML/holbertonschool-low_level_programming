@@ -2,9 +2,9 @@
 /**
  * main - Entry point
  *
- * Description: 'a program with puts funtion'
+ * Description: 'puts funtions'
  *
- * return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
