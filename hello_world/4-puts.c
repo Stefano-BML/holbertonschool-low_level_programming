@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * return: 0 (Success)
+ *
+ * Description: 'a program with puts funtion'
+ *
+ * return: 0
  */
 int main(void)
 {
