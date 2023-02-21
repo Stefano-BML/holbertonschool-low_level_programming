@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints n positive,zero,negative
+ * main - Entry point
  *
- * return: Always zero (Success)
- *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
