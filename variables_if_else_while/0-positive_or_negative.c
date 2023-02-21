@@ -4,7 +4,7 @@
 
 /**
  * main - Prints n positive,zero,negative
- * Description - answer of the task Positive anything is better than negative nothing
+ *
  * return: Always zero (Success)
  *
  */
