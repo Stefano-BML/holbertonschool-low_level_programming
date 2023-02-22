@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - alphabet task
- * return: Always zero (Success)
+ * main - Entry point
  *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int i;
-	
-	for(i = 'a'; i <= 'z'; i++)
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (i != 'e' && i != 'q')
 		{
@@ -20,5 +20,5 @@ int main(void)
 
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
