@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * int add -  function that adds two integers
- *
+ * add -  function that adds two integers
+ * @n1: number checked
+ * @n2: number checked
  * Return: integers value
  */
 
