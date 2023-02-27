@@ -22,3 +22,4 @@ for (j = i + 1; j > 0; j--)
 _putchar('#');
 _putchar('\n');
 }
+}
