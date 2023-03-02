@@ -12,7 +12,7 @@ void puts_half(char *str)
 	int medio, i;
 	int len = 0;
 
-	for (i = 0; str != '\0'; i++)
+	for (i = 0; *str != '\0'; i++)
 	{
 		len++;
 		str++;
@@ -22,7 +22,7 @@ void puts_half(char *str)
 	{
 		str--;
 	}
-	for (i = 0; str != '\0'; i++)
+	for (i = 0; *str != '\0'; i++)
 	{
 		_putchar(*str);
 		str++;
