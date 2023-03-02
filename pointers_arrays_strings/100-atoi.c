@@ -25,7 +25,7 @@ int _atoi(char *s)
 	for (i = 0; s[i] < 48 || s[i] > 57; i++)
 	{
 		if (s[i] == '-')
-			sign = -1;
+			sign *= -1;
 	}
 
 	for (i = 0; i < len; i++)
