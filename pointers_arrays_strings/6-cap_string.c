@@ -7,7 +7,7 @@
  * Return: str
  */
 
-char *cap_string(char str)
+char *cap_string(char *str)
 {
 	char *tmp = str;
 	int i = 1;
