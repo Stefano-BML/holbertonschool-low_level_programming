@@ -23,12 +23,12 @@ char *cap_string(char *str)
 		}
 		else
 		{
-			if (separador == 1)
+			if (i == 1)
 			{
 				if (*tmp >= 'a' && *tmp <= 'z')
 				{
 					*tmp = *tmp - 32;
-					separador = 0;
+					i = 0;
 				}
 			}
 		}
