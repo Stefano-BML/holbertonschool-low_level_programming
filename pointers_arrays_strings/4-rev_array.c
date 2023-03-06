@@ -9,20 +9,14 @@
  * Return: Always zero
  */
 
-void reverse_array(int *a, int n)
+void reverse_array(int a*, int n)
 {
-	int j;
+	int i, tmp;
 
-	j = n - 1;
-
-	while (j >= 0)
+	for (i = 0; i < n / 2; i++)
 	{
-		if (j != n - 1)
-		{
-			printf(", ");
-		}
-		printf("%d", a[j]);
-		j--;
+		temp = a[i];
+		a[i] = a[n - i - 1]
+		a[n - i - 1] = tmp;
 	}
-	printf("\n");
 }
