@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_number - prime check
+ * is_prime_number - prime checks
  * @n: number of check
  *
  * Return: 0 or 1
