@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* main - funcion principal
-* @argc: argumentos
+* main - funtion
+* @argc: arguments
 * @argv: array
 *
-* Return: Always 0.
+* Return: Always 0
 */
 
 int main(int argc, char *argv[])
@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		x = 0;
-		while ((argv[i] + x))
+		while ((argv[i][x]))
 		{
-			if ((argv[i] + x) < '0' || (argv[i] + x) > '9')
+			if ((argv[i][x]) < '0' || (argv[i][x]) > '9')
 			{
 				printf("Error\n");
 				return (1);
