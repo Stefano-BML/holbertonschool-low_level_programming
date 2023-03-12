@@ -2,28 +2,31 @@
 #include <stdlib.h>
 
 /**
-* main - funcion principal
-* @argc: argumentos
-* @argv: array
-* Return: Always 0.
-*/
+ * main - Funtion
+ *
+ * @argc: arguments number
+ * @argv: Array
+ *
+ * Return: 0 correct 1 error
+ */
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int x = 1;
+	int num1, num2, result;
 
-	if (argc != 3 || argc == 1)
+	if (argc != 3)
 	{
 		printf("Error\n");
+		return (1);
 	}
-	else
-	{
-		for (i = 1; i < argc; i++)
-		{
-			x = atoi(argv[i]);
-		}
-		printf("%d\n", x);
-	}
+
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+
+	result = num1 * num2;
+
+	printf("%d\n", result);
+
 	return (0);
 }
+
