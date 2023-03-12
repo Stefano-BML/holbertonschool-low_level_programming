@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+* main - funtion
+* @argc: name
+* @argv: matrix
+* Return: Always 0
+*/
+
+int main(int argc, charargv[])
+{
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+	return (0);
+}
