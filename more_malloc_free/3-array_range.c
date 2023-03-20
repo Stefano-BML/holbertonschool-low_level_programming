@@ -13,7 +13,6 @@
 int *array_range(int min, int max)
 {
 	int *ptr, counter;
-	int a;
 
 	if (min > max)
 	{
@@ -31,5 +30,5 @@ int *array_range(int min, int max)
 	{
 		ptr[counter] = min + counter;
 	}
-	return (a);
+	return (ptr);
 }
