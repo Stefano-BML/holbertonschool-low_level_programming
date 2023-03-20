@@ -13,6 +13,7 @@
 int *array_range(int min, int max)
 {
 	int *ptr, counter;
+	int a;
 
 	if (min > max)
 	{
