@@ -1,0 +1,1 @@
+Structures in C are a type of composite data that allows programmers to combine different types of data into a single entity. A structure in C is a collection of variables (called fields or members) that can have different data types, such as integers, floats, characters, arrays, pointers, etc.
