@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "dig.h"
+#include "dog.h"
 
 /**
 * print_dog - dog
