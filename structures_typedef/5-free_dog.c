@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
-* free_dog - frees memory 
+* free_dog - frees memory
 * @d: free poppy
 */
 
