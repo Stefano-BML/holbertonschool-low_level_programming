@@ -43,6 +43,7 @@ list_t *add_node(list_t **head, const char *str)
 		current_node = current_node->next;
 	current_node->next = new_node;
 
+	new_node->next = NULL;
 
 	return (new_node);
 }
